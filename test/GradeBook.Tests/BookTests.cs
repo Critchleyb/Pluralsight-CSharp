@@ -12,8 +12,8 @@ namespace GradeBook.Tests
 
             var upper = MakeUppercase(name);
 
-            Assert.Equal(name, "Scott");
-            Assert.Equal(upper, "SCOTT");
+            Assert.Equal("Scott", name);
+            Assert.Equal("SCOTT", upper);
         }
 
         private string MakeUppercase(string parameter)
